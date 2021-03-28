@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Форма</title>
+  </head>
+  <body>
+      <table style="width:50%" border="solid black">
+        <tr>
+          <th>Имя</th>
+          <th>Фамилия</th>
+          <th>Телефон</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>Михаил</td>
+          <td>Лазарев</td>
+          <td>21-3-436</td>
+          <td>1234@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Лев</td>
+          <td>Комиссаров</td>
+          <td>51-5-463</td>
+          <td>2134@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Кирилл</td>
+            <td>Eфремов</td>
+            <td>21-8-777</td>
+            <td>4321@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Глеб</td>
+            <td>Жданов</td>
+            <td>50-3-456</td>
+            <td>4123@gmail.com</td>
+        </tr>
+      </table>
+      <p></p>
+      <form action="/my-handling-form-page" method="post"></form>
+      <input placeholder="Введите Ваше имя">
+      <p></p>
+      <input placeholder="Введите Вашу фамилию">
+      <p></p>
+        <h2>Какой Ваш пол?</h2>
+            <input type="radio" checked id="М" name="пол" value="М">
+            <label for="М">М</label>
+            <p></p>
+            <input type="radio" id="Ж" name="пол" value="Ж">
+            <label for="Ж">Ж</label>
+      <p>
+            <select placeholder="Выберете Ваш город" name="Выберете Ваш город">
+            <option>Выберите Ваш город</option>
+            <option>Киев</option>
+            <option>Львов</option>
+            <option>Харьков</option>
+            <option>Днепр</option>
+            <option>Одесса</option>
+            </select>
+        <p>
+        <textarea placeholder="Напишите свой вопрос" cols="30" rows="5"></textarea>
+      </p></p>
+      <p>Выбор языка:</p>
+
+<div>
+  <input type="checkbox" id="Українська" name="Українська">
+  <label for="Українська">Українська</label>
+</div>
+
+<div>
+  <input type="checkbox" id="Русский" name="Русский">
+  <label for="horns">Русский</label>
+</div>
+<div>
+    <input type="checkbox" id="English" name="English">
+    <label for="English">English</label>
+  </div>
+</p></p>
+  <button type="submit">Отправить</button>
+    </form>
+  </body>
+</html>
